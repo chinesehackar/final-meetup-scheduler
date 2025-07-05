@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: clamp(500px, 40vw, 700px);
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 0.5rem;
+    vertical-align: middle;
+}
+
+caption {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+button.add-event {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #4e7aff;
+    border: 1px solid #4e7aff;
+}
+
+button.add-event:hover {
+    background-color: #4e7aff;
+    color: white;
+    border: 1px solid transparent;
+}
+
+button.delete {
+    background-color: #ff4e4e;
+    border-radius: 50rem;
+    border: none;
+    margin-right: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.guide {
+    width: clamp(500px, 40vw, 700px);
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+.author {
+    text-align: right;
+}
+
+input {
+    box-sizing: border-box;
+    font: inherit;
+}
+
+tfoot tr th {
+    text-align: left;
+}
